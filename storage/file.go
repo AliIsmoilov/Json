@@ -7,6 +7,7 @@ import (
 
 type Store struct {
 	User *userRepo
+	
 }
 
 func NewFileJson(cfg *config.Config) (*Store, error) {

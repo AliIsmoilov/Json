@@ -29,3 +29,12 @@ type GetListResponse struct {
 	Count int     `json:"count"`
 	Users []*User `json:"users"`
 }
+
+type GetByKey struct {
+	Name    string `json:"name"`
+	Surname string `json:"urname"`
+}
+
+type Delete struct{
+	Id int `json:"id"`
+}
